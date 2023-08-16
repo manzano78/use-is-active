@@ -1,0 +1,42 @@
+{
+  "name": "@manzano/use-loading",
+  "version": "1.0.1",
+  "description": "Best UX loading indicator",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": ["build"],
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf build && node esbuild.js && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzano78/use-loading.git"
+  },
+  "keywords": [
+    "react",
+    "loading",
+    "hook",
+    "ux"
+  ],
+  "author": "Mikaël ANZANO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manzano78/use-loading/issues"
+  },
+  "homepage": "https://github.com/manzano78/use-loading#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "esbuild": "^0.19.2",
+    "esbuild-node-externals": "^1.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
