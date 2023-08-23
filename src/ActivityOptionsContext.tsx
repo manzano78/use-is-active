@@ -8,7 +8,7 @@ export interface ActivityOptions {
 type ActivityOptionsProviderProps = PropsWithChildren<Partial<ActivityOptions>>;
 
 const defaultActivityOptions: ActivityOptions = {
-  delayBeforeActivation: 1000,
+  delayBeforeActivation: 800,
   minActiveDuration: 1000,
 };
 
