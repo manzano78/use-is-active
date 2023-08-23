@@ -1,6 +1,6 @@
 {
   "name": "@manzano/use-is-active",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Best UX loading indicator",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -11,8 +11,8 @@
     "test": "jest",
     "build": "rm -rf build && node esbuild.js && tsc",
     "publish": "npm publish --access=public",
-    "prettier:check": "yarn prettier . --check",
-    "prettier:write": "yarn prettier . --write"
+    "prettier:check": "npx prettier . --check",
+    "prettier:write": "npx prettier . --write"
   },
   "repository": {
     "type": "git",
