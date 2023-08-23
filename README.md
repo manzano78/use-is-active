@@ -7,7 +7,7 @@ Tiny hook for an optimal UX loading indication.
 
 No flickering UI anymore!
 
-- If your loading state lasts less than 1000ms (by default), no loading indicator at all will be displayed to the user
+- If your loading state lasts less than 800ms (by default), no loading indicator at all will be displayed to the user
 - Otherwise, if it exceeds this threshold, your loading indicator will start and last at least 1000ms (by default) even if your actual loading state ends before.
 
 ## Installation
@@ -38,7 +38,7 @@ The hook takes your actual loading boolean variable as param and returns the UX 
 
 ### Options override
 
-By default, the delay before activation is 1000ms and the minimal duration is 1000ms. You can override these values by context provider.
+By default, the delay before activation is 800ms and the minimal duration is 1000ms. You can override these values by context provider.
 
 Example:
 
