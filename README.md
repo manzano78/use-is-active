@@ -2,6 +2,9 @@
 
 Tiny hook for an optimal UX loading indication.
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/manzano78/use-is-active/ci.yml?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/@manzano/use-is-active.svg?style=flat-square)](https://www.npmjs.com/package/@manzano/use-is-active)
+
 No flickering UI anymore!
 
 - If your loading state lasts less than 400ms (by default), no loading indicator at all will be displayed to the user
