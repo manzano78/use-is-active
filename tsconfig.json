@@ -1,5 +1,6 @@
 {
   "include": ["src"],
+  "exclude": ["src/__TEST__"],
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
@@ -11,6 +12,7 @@
     "esModuleInterop": true,
     "emitDeclarationOnly": true,
     "outDir": "build",
-    "rootDir": "src"
+    "rootDir": "src",
+    "jsx": "react-jsx"
   }
 }

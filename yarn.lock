@@ -159,19 +159,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@manzano/use-loading@workspace:.":
+"@manzano/use-is-active@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@manzano/use-loading@workspace:."
+  resolution: "@manzano/use-is-active@workspace:."
   dependencies:
     "@types/react": ^18.2.20
     "@types/react-dom": ^18.2.7
     esbuild: ^0.19.2
     esbuild-node-externals: ^1.8.0
+    prettier: ^3.0.2
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^5.1.6
   peerDependencies:
-    react: ">=16.8.0"
+    react: ^16.8 || ^17.0 || ^18.0
   languageName: unknown
   linkType: soft
 
@@ -364,6 +365,15 @@ __metadata:
   version: 4.0.0
   resolution: "path-exists@npm:4.0.0"
   checksum: 505807199dfb7c50737b057dd8d351b82c033029ab94cb10a657609e00c1bc53b951cfdbccab8de04c5584d5eff31128ce6afd3db79281874a5ef2adbba55ed1
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "prettier@npm:3.0.2"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 118b59ddb6c80abe2315ab6d0f4dd1b253be5cfdb20622fa5b65bb1573dcd362e6dd3dcf2711dd3ebfe64aecf7bdc75de8a69dc2422dcd35bdde7610586b677a
   languageName: node
   linkType: hard
 
