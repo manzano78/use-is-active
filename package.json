@@ -1,6 +1,6 @@
 {
   "name": "@manzano/use-is-pending",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Best UX pending indicator",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "build": "rm -rf build && node esbuild.js && tsc",
-    "deploy": "npm publish",
+    "deploy": "npm publish --access public",
     "prettier:check": "npx prettier . --check",
     "prettier:write": "npx prettier . --write"
   },

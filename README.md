@@ -2,8 +2,8 @@
 
 Tiny React hook for an optimal UX loading indication.
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/manzano78/use-is-active/ci.yml?style=flat-square)
-[![npm version](https://img.shields.io/npm/v/@manzano/use-is-active.svg?style=flat-square)](https://www.npmjs.com/package/@manzano/use-is-active)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/manzano78/use-is-pending/ci.yml?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/@manzano/use-is-pending.svg?style=flat-square)](https://www.npmjs.com/package/@manzano/use-is-pending)
 
 No flickering UI anymore!
 
