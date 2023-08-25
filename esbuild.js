@@ -5,7 +5,7 @@ esbuild
     entryPoints: ['./src/index.ts'],
     outfile: 'build/index.js',
     bundle: true,
-    minify: false,
+    minify: true,
     treeShaking: true,
     platform: 'node',
     format: 'cjs',

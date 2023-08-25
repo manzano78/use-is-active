@@ -1,6 +1,6 @@
 {
   "name": "@manzano/use-is-pending",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Best UX pending indicator",
   "main": "build/index.js",
   "types": "build/index.d.ts",
