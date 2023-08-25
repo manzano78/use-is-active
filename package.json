@@ -1,7 +1,7 @@
 {
-  "name": "@manzano/use-is-active",
-  "version": "1.1.1",
-  "description": "Best UX loading indicator",
+  "name": "@manzano/use-is-pending",
+  "version": "1.1.2",
+  "description": "Best UX pending indicator",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
@@ -27,9 +27,9 @@
   "author": "Mikaël ANZANO",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/manzano78/use-loading/issues"
+    "url": "https://github.com/manzano78/use-is-pending/issues"
   },
-  "homepage": "https://github.com/manzano78/use-loading#readme",
+  "homepage": "https://github.com/manzano78/use-is-pending#readme",
   "devDependencies": {
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
