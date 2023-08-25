@@ -25,7 +25,7 @@ yarn add @manzano/use-is-pending
 ### Usage
 
 ```tsx
-import { useIsPending } from '@manzano/use-is-active';
+import { useIsPending } from '@manzano/use-is-pending';
 
 export function LoadingIndicator({
   isLoading: isActuallyPending,
@@ -47,7 +47,7 @@ By default, the delay before activation is 800ms and the minimal duration is 100
 Example:
 
 ```tsx
-import { PendingOptionsProvider } from '@manzano/use-is-active';
+import { PendingOptionsProvider } from '@manzano/use-is-pending';
 
 root.render(
   <PendingOptionsProvider delayBeforeActive={300} minActiveDuration={1500}>
