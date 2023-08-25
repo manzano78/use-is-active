@@ -1,6 +1,6 @@
 # @manzano/use-is-pending
 
-Tiny React hook for an optimal UX loading indication.
+Tiny React hook for optimal UX pending indicators.
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/manzano78/use-is-pending/ci.yml?style=flat-square)
 [![npm version](https://img.shields.io/npm/v/@manzano/use-is-pending.svg?style=flat-square)](https://www.npmjs.com/package/@manzano/use-is-pending)
