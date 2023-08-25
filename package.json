@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manzano78/use-loading.git"
+    "url": "git+https://github.com/manzano78/use-is-pending.git"
   },
   "keywords": [
     "react",
